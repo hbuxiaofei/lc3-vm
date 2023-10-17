@@ -57,5 +57,6 @@ struct virtio_blk {
 
 void virtio_init();
 int virtio_handler(uint16_t flags);
+int virtio_replay();
 
 #endif
